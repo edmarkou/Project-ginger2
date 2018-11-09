@@ -1,3 +1,17 @@
-#ginger {
-    fill: url(#a);
+.myDiv {
+    position: relative;
+    z-index: 1;
+    height: 500px;
+}
+
+.bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background: url(squares.png);
+    opacity: 0.4;
 }
