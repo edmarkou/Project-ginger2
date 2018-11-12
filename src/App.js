@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import squares from './images/squares.png';
 import gadget from './images/gadget.png';
-import Header from "./Header";
-import Description from "./Description";
-import JobContacts from "./JobContacts";
-import WhatWeTrust from "./WhatWeTrust";
+import Header from "./components/Header";
+import Description from "./components/Description";
+import JobContacts from "./components/JobContacts";
+import WhatWeTrust from "./components/WhatWeTrust";
 
 const styles = {
   main: {
@@ -60,24 +60,6 @@ const styles = {
     fontFamily: 'Courier-bold, monospace',
     lineHeight: '1.5',
     fontSize: '56px',
-  },
-  bigWhiteText2: {
-    color: "white",
-    fontWeight: 700,
-    fontFamily: 'Courier-bold, Courier, monospace',
-    lineHeight: '1.5',
-    fontSize: '36px'
-  },
-  imageIcon: {
-    width: '60px',
-    height: '55px',
-  },
-  iconText: {
-    color: 'rgb(250, 206, 51)',
-    fontFamily: 'Courier, monospace',
-    fontSize: '16px',
-    lineHeight: 1.5,
-    marginTop: '15%'
   }
 };
 class App extends Component {
@@ -86,7 +68,7 @@ class App extends Component {
       <div style={styles.main}>
         <Header/>
         <div style={{backgroundColor: 'rgba(0, 4, 30, 1.00)', height: '675px'}}>
-          <div style={{overflow: 'hidden', position: 'relative'}}>
+          <div style={{overflow: 'hidden', position: 'relative', userSelect: 'none'}}>
             <div style={styles.imageSquareBackground}/>
             <div style={{marginTop: '150px', transform: 'translate(0, -695px)'}}>
               <span style={styles.bigWhiteText}>We will change</span>
@@ -100,7 +82,7 @@ class App extends Component {
                 <span style={{...styles.littleWhiteText}}>coming soon...</span>
               </div>
             </div>
-            <img style={{width: '65%', transform: 'translate(65%, -1075px) rotate(-39deg)'}} src={gadget} alt={""}/>
+            <img style={{width: '900px', transform: 'translate(65%, -1075px) rotate(-39deg)'}} src={gadget} alt={""}/>
           </div>
         </div>
         <Description/>

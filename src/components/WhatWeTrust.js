@@ -1,32 +1,15 @@
 import React, { Component } from 'react';
-import autoRotate from './images/autoRotate.png';
-import check from './images/check.png';
-import circles from './images/circles.png';
-import heart from './images/Heart.png';
-import ML from './images/ML.png';
-import photo from './images/photo.png';
-import rocket from './images/rocket.png';
-import UI from './images/UI.png';
+import autoRotate from '../images/autoRotate.png';
+import check from '../images/check.png';
+import circles from '../images/circles.png';
+import heart from '../images/Heart.png';
+import ML from '../images/ML.png';
+import photo from '../images/photo.png';
+import rocket from '../images/rocket.png';
+import UI from '../images/UI.png';
 import MediaQuery from 'react-responsive';
 
 const styles = {
-  bigWhiteText: {
-    color: "white",
-    fontFamily: 'Courier, monospace',
-    marginLeft: '10%',
-    lineHeight: '1.5',
-    fontSize: '56px'
-  },
-  littleWhiteText: {
-    color: "white",
-    fontFamily: 'Courier, monospace',
-    fontWeight: '400',
-    marginLeft: '10%',
-    lineHeight: '1.5',
-    fontSize: '20px',
-    margin: 'auto',
-    letterSpacing: 0,
-  },
   bigWhiteText2: {
     color: "white",
     fontWeight: 700,

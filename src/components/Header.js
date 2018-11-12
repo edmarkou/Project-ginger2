@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ginger from './images/ginger.svg';
+import ginger from '../images/ginger.svg';
 import MediaQuery from 'react-responsive';
 
 const styles = {
