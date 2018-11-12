@@ -30,10 +30,10 @@ class Header extends Component {
             if (matches) {
               return (
                 <div style={{...styles.headerDiv, height: '90px'}}>
-                  <div style={{flexGrow: 1, marginLeft: '2%', paddingTop: '5px'}}>
+                  <div style={{flexGrow: 1, marginLeft: '4%', paddingTop: '5px'}}>
                     <img src={ginger} style={{height: '27px', width: '170px'}} alt={""}/>
                   </div>
-                  <div style={{flexGrow: 2, textAlign: 'right', marginRight: '2%'}}>
+                  <div style={{flexGrow: 2, textAlign: 'right', marginRight: '4%'}}>
                     <span style={{...styles.helloGingerText, fontSize: '12px'}}>hello@project-ginger.com</span>
                   </div>
                 </div>
@@ -45,10 +45,10 @@ class Header extends Component {
                     if (matches) {
                       return (
                         <div style={{...styles.headerDiv, height: '90px'}}>
-                          <div style={{flexGrow: 1, marginLeft: '2%', paddingTop: '5px'}}>
+                          <div style={{flexGrow: 1, marginLeft: '4%', paddingTop: '5px'}}>
                             <img src={ginger} style={{height: '30px', width: '190px'}} alt={""}/>
                           </div>
-                          <div style={{flexGrow: 2, textAlign: 'right', marginRight: '2%'}}>
+                          <div style={{flexGrow: 2, textAlign: 'right', marginRight: '4%'}}>
                             <span style={{...styles.helloGingerText, fontSize: '12px'}}>hello@project-ginger.com</span>
                           </div>
                         </div>
