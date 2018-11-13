@@ -52,10 +52,10 @@ class StylishDiv extends Component {
         {(matches) => {
           if (matches) {
             return (
-              <div style={{backgroundColor: 'rgba(0, 4, 30, 1)', height: '610px'}}>
+              <div style={{backgroundColor: 'rgba(0, 4, 30, 1)', height: '620px'}}>
                 <div style={{overflow: 'hidden', position: 'relative', userSelect: 'none'}}>
-                  <div style={{...styles.imageSquareBackground, height: '630px',}}/>
-                  <div style={{marginTop: '25px', textAlign: 'center', transform: 'translate(0, -630px)'}}>
+                  <div style={{...styles.imageSquareBackground, height: '640px',}}/>
+                  <div style={{marginTop: '25px', textAlign: 'center', transform: 'translate(0, -640px)'}}>
                     <span style={{...styles.bigWhiteText, marginLeft: '5%', fontSize: '40px'}}>We will change</span>
                     <br/>
                     <span style={{...styles.bigWhiteText, marginLeft: '5%', fontSize: '40px'}}>your approach</span>

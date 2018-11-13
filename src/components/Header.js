@@ -19,7 +19,7 @@ const styles = {
     fontWeight: 400,
     fontFamily: 'Courier, monospace',
     fontSize: '16px',
-    cursor: 'default'
+    cursor: 'pointer'
   }
 };
 class Header extends Component {
@@ -34,7 +34,7 @@ class Header extends Component {
                     <img src={ginger} style={{height: '27px', width: '170px'}} alt={""}/>
                   </div>
                   <div style={{flexGrow: 2, textAlign: 'right', marginRight: '4%'}}>
-                    <span style={{...styles.helloGingerText, fontSize: '12px'}}>hello@project-ginger.com</span>
+                    <span style={{...styles.helloGingerText, fontSize: '10px'}}>hello@project-ginger.com</span>
                   </div>
                 </div>
               )
@@ -49,7 +49,7 @@ class Header extends Component {
                             <img src={ginger} style={{height: '30px', width: '190px'}} alt={""}/>
                           </div>
                           <div style={{flexGrow: 2, textAlign: 'right', marginRight: '4%'}}>
-                            <span style={{...styles.helloGingerText, fontSize: '12px'}}>hello@project-ginger.com</span>
+                            <span style={{...styles.helloGingerText, fontSize: '11px'}}>hello@project-ginger.com</span>
                           </div>
                         </div>
                       )

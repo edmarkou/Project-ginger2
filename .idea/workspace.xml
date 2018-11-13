@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41a0e14c-8362-4e5f-ba32-f8884bf1628b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/StylishDiv.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WhatWeTrust.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WhatWeTrust.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +21,7 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
+            <state>
               <caret column="41" selection-start-column="41" selection-end-column="41" />
             </state>
           </provider>
@@ -31,8 +30,8 @@
       <file leaf-file-name="Header.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+            <state relative-caret-position="357">
+              <caret line="51" column="82" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="82" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -40,10 +39,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="WhatWeTrust.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/WhatWeTrust.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="StylishDiv.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/StylishDiv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
+            <state relative-caret-position="1122">
               <caret line="69" column="74" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -81,6 +89,7 @@
         <option value="$PROJECT_DIR$/src/StylishDiv.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/StylishDiv.js" />
+        <option value="$PROJECT_DIR$/src/components/WhatWeTrust.js" />
         <option value="$PROJECT_DIR$/src/components/Header.js" />
       </list>
     </option>
@@ -113,6 +122,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,7 +150,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,16 +205,16 @@
       <workItem from="1541721542238" duration="17715000" />
       <workItem from="1541862924585" duration="22800000" />
       <workItem from="1541974166819" duration="17826000" />
-      <workItem from="1542053189364" duration="4643000" />
+      <workItem from="1542053189364" duration="5282000" />
+      <workItem from="1542136143935" duration="2910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62984000" />
+    <option name="totallyTimeSpent" value="66533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -237,6 +246,33 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/StylishDiv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="69" column="74" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
@@ -258,13 +294,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ginger.css" />
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -299,27 +329,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WhatWeTrust.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ginger.css" />
     <entry file="file://$PROJECT_DIR$/src/components/JobContacts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="47" column="25" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="47" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/StylishDiv.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
+        <state relative-caret-position="1122">
           <caret line="69" column="74" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -329,15 +349,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
+        <state>
           <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/WhatWeTrust.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+        <state relative-caret-position="357">
+          <caret line="51" column="82" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="82" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

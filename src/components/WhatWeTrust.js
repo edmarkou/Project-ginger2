@@ -37,70 +37,78 @@ class WhatWeTrust extends Component {
         {(matches) => {
           if (matches) {
             return (
-              <div style={{height: '1100px', backgroundColor: 'rgba(0, 4, 30, 1.00)', display: 'block', userSelect: 'none'}}>
+              <div style={{height: '700px', backgroundColor: 'rgba(0, 4, 30, 1.00)', display: 'block', userSelect: 'none'}}>
                 <div style={{ display: 'block', textAlign: 'center', paddingTop: '7%'}}>
-                  <span style={styles.bigWhiteText2}>
-                    That's what we trust
-                  </span>
+                      <span style={styles.bigWhiteText2}>
+                        That's what we trust
+                      </span>
                 </div>
-                <div style={{ width: '160px', paddingTop: '7%', margin: 'auto'}}>
-                  <div style={{display: 'grid', width: '160px'}}>
-                    <img style={{...styles.imageIcon, margin: 'auto'}} src={heart} alt={""}/>
-                    <span style={{ ...styles.iconText, marginTop: '0px', textAlign: 'center'}}>
-                      Support what<br/>
-                      really loves you
-                    </span>
+                <div style={{ width: '90%', paddingTop: '7%', margin: 'auto'}}>
+                  <div>
+                    <div style={{display: 'inline-grid', width: '50%'}}>
+                      <img style={{...styles.imageIcon, margin: 'auto'}} src={heart} alt={""}/>
+                      <span style={{ ...styles.iconText, fontSize: '12px', marginTop: '0px', textAlign: 'center'}}>
+                            Support what<br/>
+                            really loves you
+                          </span>
+                    </div>
+                    <div style={{display: 'inline-grid', width: '50%'}}>
+                      <img style={{...styles.imageIcon, height: '40px', paddingBottom: '7.5px', margin: 'auto'}} src={UI} alt={""}/>
+                      <span style={{ ...styles.iconText, fontSize: '12px', marginTop: '0px', textAlign: 'center'}}>
+                            Awesome user<br/>
+                            interface
+                          </span>
+                    </div>
                   </div>
-                  <div style={{display: 'grid', width: '160px', paddingTop: '15px'}}>
-                    <img style={{...styles.imageIcon, height: '40px', paddingBottom: '7.5px', margin: 'auto'}} src={UI} alt={""}/>
-                    <span style={{ ...styles.iconText, marginTop: '0px', textAlign: 'center'}}>
-                      Awesome user<br/>
-                      interface
-                    </span>
-                  </div>
-                  <div style={{display: 'grid', width: '160px', paddingTop: '15px'}}>
-                    <img style={{...styles.imageIcon, margin: 'auto'}} src={rocket} alt={""}/>
-                    <span style={{ ...styles.iconText, marginTop: '0px', textAlign: 'center'}}>
-                      Fast account<br/>
-                      opening
-                    </span>
-                  </div>
-                  <div style={{display: 'grid', width: '160px', paddingTop: '15px'}}>
-                    <img style={{...styles.imageIcon, width: '55px', margin: 'auto'}} src={photo} alt={""}/>
-                    <span style={{ ...styles.iconText, marginTop: '0px', textAlign: 'center'}}>
-                      The lowest<br/>
-                      fee
-                    </span>
+                  <div style={{paddingTop: '10%'}}>
+                    <div style={{display: 'inline-grid', width: '50%'}}>
+                      <img style={{...styles.imageIcon, margin: 'auto'}} src={rocket} alt={""}/>
+                      <span style={{ ...styles.iconText, fontSize: '12px', marginTop: '0px', textAlign: 'center'}}>
+                            Fast account<br/>
+                            opening
+                          </span>
+                    </div>
+                    <div style={{display: 'inline-grid', width: '50%'}}>
+                      <img style={{...styles.imageIcon, width: '55px', margin: 'auto'}} src={photo} alt={""}/>
+                      <span style={{ ...styles.iconText, fontSize: '12px', marginTop: '0px', textAlign: 'center'}}>
+                            The lowest<br/>
+                            fee
+                          </span>
+                    </div>
                   </div>
                 </div>
-                <div style={{ width: '160px', paddingTop: '15px', margin: 'auto'}}>
-                  <div style={{display: 'grid', width: '160px'}}>
-                    <img style={{...styles.imageIcon, margin: 'auto'}} src={check} alt={""}/>
-                    <span style={{ ...styles.iconText, marginTop: '0px', textAlign: 'center'}}>
-                      Easy SEPA<br/>
-                      payments
-                    </span>
+                <div style={{ width: '90%', paddingTop: '10%', margin: 'auto', userSelect: 'none'}}>
+                  <div>
+                    <div style={{display: 'inline-grid', width: '50%'}}>
+                      <img style={{...styles.imageIcon, margin: 'auto'}} src={check} alt={""}/>
+                      <span style={{ ...styles.iconText, fontSize: '12px', marginTop: '0px', textAlign: 'center'}}>
+                          Easy SEPA<br/>
+                          payments
+                        </span>
+                    </div>
+                    <div style={{display: 'inline-grid', width: '50%'}}>
+                      <img style={{...styles.imageIcon, margin: 'auto'}} src={autoRotate} alt={""}/>
+                      <span style={{ ...styles.iconText, fontSize: '12px', marginTop: '0px', textAlign: 'center'}}>
+                          Quick SWIFT<br/>
+                          transfers
+                        </span>
+                    </div>
                   </div>
-                  <div style={{display: 'grid', width: '160px', paddingTop: '15px'}}>
-                    <img style={{...styles.imageIcon, margin: 'auto'}} src={autoRotate} alt={""}/>
-                    <span style={{ ...styles.iconText, marginTop: '0px', textAlign: 'center'}}>
-                      Quick SWIFT<br/>
-                      transfers
-                    </span>
-                  </div>
-                  <div style={{display: 'grid', width: '160px', paddingTop: '15px'}}>
-                    <img style={{...styles.imageIcon, height: '50px', paddingBottom: '2.5px', margin: 'auto'}} src={circles} alt={""}/>
-                    <span style={{ ...styles.iconText, marginTop: '0px', textAlign: 'center'}}>
-                      Secure<br/>
-                      cryptocurrencies
-                    </span>
-                  </div>
-                  <div style={{display: 'grid', width: '160px', paddingTop: '15px'}}>
-                    <img style={{...styles.imageIcon, height: '40px', paddingBottom: '7.5px', margin: 'auto'}} src={ML} alt={""}/>
-                    <span style={{ ...styles.iconText, marginTop: '0px', textAlign: 'center'}}>
-                      Deep machine<br/>
-                      learning
-                    </span>
+                  <div style={{paddingTop: '10%'}}>
+                    <div style={{display: 'inline-grid', width: '50%'}}>
+                      <img style={{...styles.imageIcon, height: '50px', paddingBottom: '2.5px', margin: 'auto'}} src={circles} alt={""}/>
+                      <span style={{ ...styles.iconText, fontSize: '12px', marginTop: '0px', textAlign: 'center'}}>
+                          Secure<br/>
+                          cryptocurrencies
+                        </span>
+                    </div>
+                    <div style={{display: 'inline-grid', width: '50%'}}>
+                      <img style={{...styles.imageIcon, height: '40px', paddingBottom: '7.5px', margin: 'auto'}} src={ML} alt={""}/>
+                      <span style={{ ...styles.iconText, fontSize: '12px', marginTop: '0px', textAlign: 'center'}}>
+                          Deep machine<br/>
+                          learning
+                        </span>
+                    </div>
                   </div>
                 </div>
               </div>
